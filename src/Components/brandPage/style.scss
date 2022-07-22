@@ -245,6 +245,7 @@
   background: #181818;
   border-radius: 0px 0px 10px 10px;
   color: #FFFF;
+  max-height: 485px;
   &__img {
     object-fit: cover;
     width: 100%;
@@ -306,7 +307,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
   &__btn {
